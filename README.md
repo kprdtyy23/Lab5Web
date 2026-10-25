@@ -39,24 +39,30 @@
 
 # Eksperimen Mandiri
 <h4>Ubah Latihan 3 agar menerima dua nilai dari prompt dan mengonversinya menjadi number</h4>
+
 ![Gambar 15](screenshot/eksperimen1.png)
 ![Gambar 16](screenshot/eksperimen1-2.png)
 ![Gambar 17](screenshot/eksperimen1-3.png)
 
 <h4>Buat perulangan untuk menampilkan tabel perkalian angka 7 dari 1 sampai 10</h4>
+
 ![Gambar 18](screenshot/perulangan.png)
 
 <h4>Buat function cekGenap(angka) yang mengembalikan true jika angka genap</h4>
+
 ![Gambar 19](screenshot/function.png)
 
 <h4>Tambahkan validasi form agar kolom tidak boleh kosong</h4>
+
 ![Gambar 20](screenshot/validasi%20form.png)
 ![Gambar 21](screenshot/validasi%20form-2.png)
 
 <h4>Ubah Latihan 8 dengan menambah minimal dua pilihan menu dan harga</h4>
+
 ![Gambar 22](screenshot/eksperimen4.png)
 
 <h4>Gunakan tombol untuk menyembunyikan atau menampilkan elemen HTML</h4>
+
 ![Gambar 23](screenshot/eksperimen5.png)
 
 # Praktikum 5 JavaScript
@@ -77,14 +83,14 @@
 
 Contoh:
 
-\```javascript
+\javascript
 let umur = 20;
 umur = 21;
 console.log(umur); // 21
 
 const nama = "Andi";
 console.log(nama); // Andi
-\```
+\
 
 # 3. Apa perbedaan operator == dan ===?
 
@@ -92,20 +98,20 @@ Operator `==` membandingkan dua nilai dengan memungkinkan konversi tipe data sec
 
 Contoh:
 
-\```javascript
+\javascript
 console.log(5 == "5");  // true
 console.log(5 === "5"); // false
-\```
+\
 
 Hasil pertama adalah `true` karena tipe data dapat dikonversi, sedangkan hasil kedua adalah `false` karena tipe datanya berbeda.
 
-# 4. Jelaskan fungsi if–else dan switch. Kapan masing-masing dapat digunakan?
+# 4. Jelaskan fungsi if-else dan switch. Kapan masing-masing dapat digunakan?
 
 `if–else` digunakan untuk menjalankan kode berdasarkan kondisi tertentu, misalnya menentukan kelulusan berdasarkan nilai mahasiswa.
 
 Contoh:
 
-\```javascript
+\javascript
 let nilai = 80;
 
 if (nilai >= 60) {
@@ -113,13 +119,13 @@ if (nilai >= 60) {
 } else {
     console.log("Tidak lulus");
 }
-\```
+\
 
 `switch` digunakan untuk memilih tindakan berdasarkan beberapa nilai tertentu, misalnya memilih menu program.
 
 Contoh:
 
-\```javascript
+\javascript
 let pilihan = 2;
 
 switch (pilihan) {
@@ -132,7 +138,7 @@ switch (pilihan) {
     default:
         console.log("Pilihan tidak tersedia");
 }
-\```
+\
 
 # 5. Apa fungsi parameter dan return dalam function?
 
@@ -140,14 +146,14 @@ Parameter adalah variabel yang digunakan untuk menerima data masukan ketika fung
 
 Contoh:
 
-\```javascript
+\javascript
 function tambah(a, b) {
     return a + b;
 }
 
 const hasil = tambah(5, 3);
 console.log(hasil); // 8
-\```
+\
 
 Parameter `a` dan `b` menerima nilai 5 dan 3, kemudian `return` mengembalikan hasil penjumlahan, yaitu 8.
 
@@ -157,15 +163,15 @@ Parameter `a` dan `b` menerima nilai 5 dan 3, kemudian `return` mengembalikan ha
 
 Contoh HTML:
 
-\```html
+\html
 <p id="pesan">Teks awal</p>
-\```
+\
 
 Contoh JavaScript:
 
-\```javascript
+\javascript
 document.getElementById("pesan").textContent = "Halo Dunia!";
-\```
+\
 
 Kode tersebut memilih elemen dengan `id="pesan"` dan mengubah teksnya menjadi "Halo Dunia!".
 
@@ -173,7 +179,7 @@ Kode tersebut memilih elemen dengan `id="pesan"` dan mengubah teksnya menjadi "H
 
 **Kode HTML (`index.html`):**
 
-\```html
+\html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -201,11 +207,11 @@ Kode tersebut memilih elemen dengan `id="pesan"` dan mengubah teksnya menjadi "H
     <script src="script.js"></script>
 </body>
 </html>
-\```
+\
 
 **Kode JavaScript (`script.js`):**
 
-\```javascript
+\javascript
 document.getElementById("formMahasiswa").addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -227,7 +233,7 @@ document.getElementById("formMahasiswa").addEventListener("submit", function(eve
         pesan.textContent = "Data valid. Nama: " + nama + ", Nilai: " + nilai;
     }
 });
-\```
+\
 
 **Penjelasan:**
 
